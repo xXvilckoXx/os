@@ -1,0 +1,25 @@
+﻿Build started 16/06/2021 20:44:58.
+     1>Project "D:\New folder\shared\Demo15\SysCore\AHCI\AHCI.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\AHCI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /I..\Kernel\ /Zi /nologo /Wall /WX- /Ox /Oy /D ARCH_X86 /D _MBCS /X /Gm- /EHsc /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /FAs /Fa"Debug\\" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AHCI.cpp
+         AHCI.cpp
+     1>D:\New folder\shared\Demo15\SysCore\Include\stdint.h(170): warning C4365: 'return' : conversion from 'int' to 'uint8_t', signed/unsigned mismatch
+     1>D:\New folder\shared\Demo15\SysCore\Include\stdint.h(175): warning C4365: 'return' : conversion from 'int' to 'uint8_t', signed/unsigned mismatch
+     1>AHCI.cpp(47): warning C4365: '=' : conversion from 'int' to 'uint16_t', signed/unsigned mismatch
+     1>AHCI.cpp(35): warning C4100: 'starth' : unreferenced formal parameter
+     1>AHCI.cpp(35): warning C4100: 'startl' : unreferenced formal parameter
+     1>D:\New folder\shared\Demo15\SysCore\Include\stdint.h(179): warning C4514: 'AssignBit' : unreferenced inline function has been removed
+     1>d:\new folder\shared\demo15\syscore\ahci\ahci.cpp(37): warning C4711: function 'int __cdecl find_cmdslot(struct HBA_PORT *)' selected for automatic inline expansion
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\New folder\shared\Demo15\SysCore\Debug\AHCI.lib" /NOLOGO Debug\AHCI.obj
+         AHCI.vcxproj -> D:\New folder\shared\Demo15\SysCore\Debug\AHCI.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\AHCI.unsuccessfulbuild".
+         Touching "Debug\AHCI.lastbuildstate".
+     1>Done Building Project "D:\New folder\shared\Demo15\SysCore\AHCI\AHCI.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.21

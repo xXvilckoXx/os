@@ -1,0 +1,33 @@
+﻿Build started 17/06/2021 21:42:32.
+     1>Project "D:\New folder\shared\Demo15\SysCore\Kernel\Kernel.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Touching "Debug\Kernel.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\AHCI /I..\PCI /I..\Include\ /I..\Keyboard /I..\FloppyDisk /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /GF- /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt entry.cpp /Oy 
+         entry.cpp
+     1>d:\new folder\shared\demo15\syscore\kernel\entry.cpp(20): warning C4740: flow in or out of inline asm code suppresses global optimization
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\New folder\shared\Demo15\SysCore\\debug\Kernel.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:..\Lib\ /LIBPATH:..\debug\ keyboard.lib floppydisk.lib PCI.lib AHCI.lib /NODEFAULTLIB /MANIFEST:NO /PDB:"D:\New folder\shared\Demo15\SysCore\debug\Kernel.pdb" /MAP:"Kernel.map" /SUBSYSTEM:NATIVE /Driver /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"kernel_entry" /BASE:"0xC0000000" /FIXED:NO /IMPLIB:"D:\New folder\shared\Demo15\SysCore\\debug\Kernel.lib" /MACHINE:X86 Debug\Resource.res
+         Debug\entry.obj
+         Debug\main.obj
+         Debug\DebugDisplay.obj
+         Debug\exception.obj
+         Debug\mmngr_phys.obj
+         Debug\mmngr_virtual.obj
+         Debug\panic.obj
+         Debug\vmmngr_pde.obj
+         Debug\vmmngr_pte.obj
+         "D:\New folder\shared\Demo15\SysCore\Debug\Hal.lib"
+         "D:\New folder\shared\Demo15\SysCore\Debug\Lib.lib" /ALIGN:512 /ignore:4254 
+         Kernel.vcxproj -> D:\New folder\shared\Demo15\SysCore\\debug\Kernel.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Kernel.unsuccessfulbuild".
+         Touching "Debug\Kernel.lastbuildstate".
+     1>Done Building Project "D:\New folder\shared\Demo15\SysCore\Kernel\Kernel.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.30

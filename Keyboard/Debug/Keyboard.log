@@ -1,0 +1,27 @@
+﻿Build started 12/06/2021 13:26:34.
+     1>Project "D:\New folder\shared\Demo15\SysCore\Keyboard\Keyboard.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Keyboard.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /O2 /Oy /D ARCH_X86 /X /Gm- /EHsc /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt kybrd.cpp
+         kybrd.cpp
+     1>D:\New folder\shared\Demo15\SysCore\Include\ctype.h(39): warning C4005: 'isascii' : macro redefinition
+                 D:\New folder\shared\Demo15\SysCore\Include\ctype.h(28) : see previous definition of 'isascii'
+     1>kybrd.cpp(260): warning C4127: conditional expression is constant
+     1>kybrd.cpp(277): warning C4127: conditional expression is constant
+     1>kybrd.cpp(485): warning C4806: '|' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(485): warning C4806: '&' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(486): warning C4806: '|' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(486): warning C4806: '&' : unsafe operation: no value of type 'bool' promoted to type 'int' can equal the given constant
+     1>kybrd.cpp(645): warning C4127: conditional expression is constant
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\New folder\shared\Demo15\SysCore\Debug\Keyboard.lib" /NOLOGO Debug\kybrd.obj
+         Keyboard.vcxproj -> D:\New folder\shared\Demo15\SysCore\Debug\Keyboard.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Keyboard.unsuccessfulbuild".
+         Touching "Debug\Keyboard.lastbuildstate".
+     1>Done Building Project "D:\New folder\shared\Demo15\SysCore\Keyboard\Keyboard.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.31

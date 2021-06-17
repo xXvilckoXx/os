@@ -1,0 +1,27 @@
+﻿Build started 12/06/2021 13:26:34.
+     1>Project "D:\New folder\shared\Demo15\SysCore\Hal\Hal.vcxproj" on node 4 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Debug\Hal.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I..\Include\ /Zi /nologo /W4 /WX- /Ox /Oy /D ARCH_X86 /X /Gm- /MD /Zp1 /GS- /fp:precise /Zc:wchar_t /Zc:forScope /GR- /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Hal.cpp idt.cpp pic.cpp pit.cpp
+         Hal.cpp
+         idt.cpp
+         pic.cpp
+         pit.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"D:\New folder\shared\Demo15\SysCore\Debug\Hal.lib" /NOLOGO Debug\cpu.obj
+         Debug\gdt.obj
+         Debug\Hal.obj
+         Debug\idt.obj
+         Debug\pic.obj
+         Debug\pit.obj
+         Hal.vcxproj -> D:\New folder\shared\Demo15\SysCore\Debug\Hal.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hal.unsuccessfulbuild".
+         Touching "Debug\Hal.lastbuildstate".
+     1>Done Building Project "D:\New folder\shared\Demo15\SysCore\Hal\Hal.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.59

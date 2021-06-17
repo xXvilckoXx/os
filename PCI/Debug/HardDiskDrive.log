@@ -1,0 +1,17 @@
+﻿Build started 17/06/2021 21:42:32.
+     1>Project "D:\New folder\shared\Demo15\SysCore\PCI\HardDiskDrive.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\PCI.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         HardDiskDrive.vcxproj -> D:\New folder\shared\Demo15\SysCore\Debug\PCI.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\PCI.unsuccessfulbuild".
+         Touching "Debug\PCI.lastbuildstate".
+     1>Done Building Project "D:\New folder\shared\Demo15\SysCore\PCI\HardDiskDrive.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.02
